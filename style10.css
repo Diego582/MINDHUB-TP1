@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+}
+
+header {
+  grid-area: 1 / 1 / 5 / 12;
+  background-image: url("./imagenes/design1_image1.jpg");
+  background-size: cover;
+  height: 350px;
+}
+footer {
+  grid-area: 12 / 1 / 13 / 12;
+  background-color: black;
+}
+main {
+  grid-area: 5 / 1 / 12 / 12;
+  background-color: white;
+  text-align: center;
+  z-index: -2;
+}
+nav {
+  grid-area: 6 / 1 / 12 / 3;
+  background-color: blue;
+}
+aside {
+  grid-area: 6 / 10 / 12 / 12;
+  z-index: 1;
+  background-color: #271f1bff;
+  color: white;
+  right: 0;
+  width: 15%;
+  position: absolute;
+  height: 100%;
+  align-content: space-around;
+}
+
+section {
+  background-color: red;
+}
+
+.header {
+}
+.main {
+}
+.nav {
+}
+.aside {
+}
+.footer {
+}
