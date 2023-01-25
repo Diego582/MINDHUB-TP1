@@ -6,11 +6,12 @@
 
 body {
   background-color: #50a598ff;
-  display: flex;
+  position: relative;
+  z-index: 0;
 }
 
 header {
-  background-image: url("./imagenes/design1_image1.jpg");
+  background-image: url("../imagenes/design1_image2.jpg");
   background-size: cover;
   height: 300px;
   width: 100%;
@@ -54,14 +55,17 @@ section > figure {
 }
 
 footer {
+  display: inline-grid;
   background-color: black;
   color: #f1ef00ff;
   font-family: "Times New Roman", Times, serif;
-  padding: 0.5em;
   text-align: center;
   position: fixed;
-  bottom: 0;
+  bottom: 0%;
+  left: 0;
   width: 100%;
+  height: 60px;
+  padding: 10px 20px;
 }
 
 aside {
@@ -73,11 +77,14 @@ aside {
   height: 100%;
   position: absolute;
   top: 50px;
-  align-content: space-around;
 }
 
-aside > figure {
+aside figure {
+  position: relative;
   text-align: center;
+  padding-top: 20px;
+  margin-top: 20px;
+  z-index: 100;
 }
 
 nav {
@@ -100,6 +107,7 @@ main {
   width: 100%;
   top: 300px;
   z-index: -2;
+  margin-bottom: 20px;
 }
 
 article {
@@ -166,4 +174,7 @@ article > figure {
 
 .link-mailito {
   color: #f1ef00ff;
+}
+
+.img-Aside {
 }
