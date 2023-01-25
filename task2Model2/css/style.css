@@ -5,12 +5,13 @@
 }
 
 body {
-  background-color: #50a598ff;
+  background-color: white;
   position: relative;
   z-index: 0;
 }
 
 header {
+  margin-top: 70px;
   background-image: url("../imagenes/design1_image2.jpg");
   background-size: cover;
   height: 300px;
@@ -20,18 +21,18 @@ header {
 }
 
 header h1 {
-  color: white;
+  position: relative;
+  top: -90px;
+  color: #50a598ff;
   font-family: "Times New Roman", Times, serif;
   text-shadow: 2px 2px black;
   font-size: 50px;
   padding: 0.5em;
-  margin: 0;
-  margin-left: 0.5em;
 }
 
 section h2 {
   background-color: #271f1bff;
-  color: white;
+  color: #50a598ff;
   margin: 0;
   padding: 0.5em;
   text-align: center;
@@ -71,7 +72,7 @@ footer {
 aside {
   display: grid;
   background-color: #271f1bff;
-  color: white;
+  color: #50a598ff;
   right: 0;
   width: 15%;
   height: 100%;
@@ -88,18 +89,22 @@ aside figure {
 }
 
 nav {
+  float: right;
+  right: 250px;
   display: flex;
-  flex-direction: column;
-  width: 20%;
-  height: 50%;
-  position: absolute;
-  top: 400px;
+  width: 100px;
+  top: 25px;
+  position: relative;
 }
 
 nav a {
-  color: white;
+  text-decoration: none;
+  background-color: blue;
+  text-align: center;
+  color: #50a598ff;
   font-size: x-large;
   margin: 20px 10px;
+  padding: 5px;
 }
 
 main {
@@ -119,7 +124,7 @@ article {
 
 article h3 {
   padding: 0.5em;
-  color: white;
+  color: #50a598ff;
   text-align: justify;
   font-family: "Times New Roman", Times, serif;
   text-shadow: 2px 2px black;
@@ -148,23 +153,27 @@ article > figure {
 }
 
 .nav-Home {
-  text-decoration: none;
+  background-color: green;
 }
 
 .nav-About {
-  text-decoration: none;
+  background-color: green;
 }
 
 .nav-Contact {
-  text-decoration: none;
+  background-color: green;
 }
 
 .logo {
   position: absolute;
-  right: 20%;
-  top: 75%;
+  left: 20px;
+  top: 350px;
   border-radius: 50%;
   padding: 15px;
+}
+
+.logo img {
+  width: 200px;
 }
 
 .img-Article {
