@@ -87,6 +87,10 @@ aside figure {
   z-index: 100;
 }
 
+aside figcaption {
+  padding-top: 10px;
+}
+
 nav {
   width: 20%;
   height: 50%;
@@ -146,6 +150,7 @@ article > figure {
   position: relative;
   width: 60%;
   left: 20%;
+  text-align: center;
 }
 
 article figcaption {
