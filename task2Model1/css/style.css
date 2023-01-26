@@ -50,9 +50,7 @@ section > figure {
   justify-content: center;
 }
 
-.img-Section {
-  width: 300px;
-}
+
 
 footer {
   display: inline-grid;
@@ -94,6 +92,7 @@ nav {
   height: 50%;
   position: absolute;
   top: 400px;
+  padding-left: 10px;
 }
 
 nav a {
@@ -147,6 +146,11 @@ article > figure {
   left: 20%;
 }
 
+article figcaption {
+  margin: 5px;
+  padding: 5px;
+}
+
 .nav-Home {
   text-decoration: none;
 }
@@ -157,6 +161,10 @@ article > figure {
 
 .nav-Contact {
   text-decoration: none;
+}
+
+.img-Section {
+  width: 400px;
 }
 
 .logo {
@@ -176,5 +184,4 @@ article > figure {
   color: #f1ef00ff;
 }
 
-.img-Aside {
-}
+
