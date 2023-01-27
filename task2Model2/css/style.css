@@ -31,7 +31,7 @@ header h1 {
 
 section {
   margin-top: 70px;
-  background-color: #13ADA3;
+  background-color: #13ada3;
 }
 
 section h2 {
@@ -123,6 +123,11 @@ nav a {
   -moz-border-radius: 10%;
   -ms-border-radius: 10%;
   -o-border-radius: 10%;
+  transition: background-color 0.5s;
+}
+
+nav a:hover {
+  background-color: #947769;
 }
 
 main {
@@ -177,13 +182,28 @@ article figcaption {
 
 .nav-Home {
   background-color: #54bd31;
+  transition: background-color 0.5s;
+}
+
+.nav-Home:hover {
+  background-color: #54bd31;
 }
 
 .nav-About {
   background-color: #54bd31;
+  transition: background-color 0.5s;
+}
+
+.nav-About:hover {
+  background-color: #54bd31;
 }
 
 .nav-Contact {
+  background-color: #54bd31;
+  transition: background-color 0.5s;
+}
+
+.nav-Contact:hover {
   background-color: #54bd31;
 }
 
@@ -193,12 +213,25 @@ article figcaption {
   top: 355px;
   border-radius: 50%;
   padding: 15px;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+
+.logo:hover {
+  transform: translateY(20px);
+  -webkit-transform: translateY(20px);
+  -moz-transform: translateY(20px);
+  -ms-transform: translateY(20px);
+  -o-transform: translateY(20px);
+  background-color: #947769;
 }
 
 .logo img {
   width: 150px;
 }
-
 
 .link-mailito {
   color: #f1ef00ff;

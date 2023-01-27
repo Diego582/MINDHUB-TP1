@@ -104,7 +104,17 @@ nav a {
   color: white;
   font-size: x-large;
   margin: 30px 10px;
-  padding: 10px 5px;
+  padding: 10px 10px;
+  transition: background-color 0.5s;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+}
+
+nav a:hover {
+  background-color: #947769;
 }
 
 main {
@@ -160,13 +170,38 @@ article figcaption {
 
 .nav-Home {
   text-decoration: none;
+  transition: background-color 0.5s;
+}
+
+.nav-Home:hover {
+  background-color: #50a598ff;
+  text-decoration: none;
 }
 
 .nav-About {
   text-decoration: none;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+
+.nav-About:hover {
+  background-color: #50a598ff;
+  text-decoration: none;
 }
 
 .nav-Contact {
+  text-decoration: none;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+.nav-Contact:hover {
+  background-color: #50a598ff;
   text-decoration: none;
 }
 
@@ -176,10 +211,19 @@ article figcaption {
 
 .logo {
   position: absolute;
-  right: 20%;
+  left: 70%;
   top: 75%;
   border-radius: 50%;
   padding: 15px;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+
+.logo:hover {
+  background-color: #271f1bff;
 }
 
 .link-mailito {
