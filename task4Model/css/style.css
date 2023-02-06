@@ -71,7 +71,6 @@ aside {
   align-content: flex-start;
   justify-content: space-around;
   color: white;
-  flex-grow: 1;
 }
 
 aside figure {
@@ -150,7 +149,7 @@ section {
 section h2 {
   color: white;
   text-align: center;
-  width: 100%;
+  width: 85%;
   margin: 10px;
   padding: 10px;
   text-shadow: 2px 2px black;
@@ -486,4 +485,231 @@ ul {
 .bannerImagenDos {
   background-image: url("../imagenes/design1_image2.jpg");
   background-size: cover;
+}
+
+.formulario {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+  font-size: large;
+  line-height: 2em;
+  text-align: justify;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formulario fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.formulario legend {
+  text-shadow: 1px 1px black;
+  color: white;
+  font-size: x-large;
+  padding-top: 100px;
+  width: 90%;
+  margin: 10px;
+}
+
+.formulario input,
+select {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.formulario label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  text-shadow: 1px 1px white;
+  flex-wrap: wrap;
+}
+
+.check {
+  appearance: none;
+  cursor: pointer;
+  background-color: #fff;
+  width: 25px;
+  height: 25px;
+  transition: background-color ease-in-out 0.3s;
+  -webkit-transition: background-color ease-in-out 0.3s;
+  -moz-transition: background-color ease-in-out 0.3s;
+  -ms-transition: background-color ease-in-out 0.3s;
+  -o-transition: background-color ease-in-out 0.3s;
+}
+
+.check:checked {
+  background-image: url("../imagenes/marcaVerif.png");
+  background-position: center;
+  background-color: #f0f048;
+}
+
+
+
+.segmento1 {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  border-color: transparent;
+  background-color: #3dd98d;
+}
+.segmento1 label {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 700px;
+}
+
+.segmento1 input,
+select {
+  width: 300px;
+  background-color: white;
+  border-color: transparent;
+  padding: 5px;
+}
+.segmento1 input:hover {
+  background-color: #f0f048;
+}
+.segmento1 select:hover {
+  background-color: #f0f048;
+}
+
+.segmento1 span {
+  display: flex;
+  width: 300px;
+}
+
+.segmento2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  border-color: transparent;
+  background-color: #3dd98d;
+  border-radius: 5px;
+}
+
+.segmento2 input {
+  padding: 15px;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.segmento2 span {
+  margin-left: 30px;
+  width: 100%;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.segmento2 label {
+  width: 250px;
+}
+
+.segmento3 {
+  width: 100%;
+  border-color: transparent;
+  background-color: #3dd98d;
+  border-radius: 5px;
+}
+.segmento3 label {
+  width: 200px;
+}
+
+
+
+
+.segmento4 {
+  width: 100%;
+  border-color: transparent;
+  background-color: #3dd98d;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.segmento4 label {
+  width: 250px;
+}
+
+
+
+.segmento4 input {
+  padding: 15px;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.segmento5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #b03b00;
+  color: white;
+  width: 100%;
+  border-color: transparent;
+  padding: 10px;
+  border-radius: 5px;
+}
+.segmento5 label {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  text-shadow: 1px 1px black;
+}
+.segmento5 span {
+  display: flex;
+  width: 300px;
+}
+
+.segmento5 p {
+  margin: 20px 0px;
+}
+
+.segmento5 input {
+  display: flex;
+  width: 300px;
+  padding: 5px;
+}
+
+.button-Submit {
+  color: white;
+  margin: 30px 0px;
+  padding: 5px;
+  min-width: 100px;
+  background-color: #d94e48;
+  cursor: pointer;
+  font-size: large;
+  border: none;
+  border-radius: 4px;
+}
+
+.button-Submit:hover {
+  background-color: #3743f0;
+}
+
+.formulario p {
+  width: 90%;
+}
+
+.sectionRegistracion {
+  min-width: 375px;
+}
+
+.asideRegistracion {
+  min-width: 150px;
 }
