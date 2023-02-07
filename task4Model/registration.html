@@ -38,76 +38,85 @@
         <fieldset class="segmento1">
           <label><span>Player's First Name:</span><input type="text" name="firtsname" required></label>
           <label><span>Last Name:</span><input type="text" name="lastname" required></label>
-          <label><span>Street Address:</span> <input type="text" name="street" required></label>
+          <fieldset class="streetAddress">
+            <label><span>Street Address:</span> <input type="text" name="street" required></label>
+          </fieldset>
           <label><span>City:</span><input type="text" name="city" required></label>
           <label><span>Zipe Code:</span><input type="number" name="zipecode" required></label>
           <label><span>Birth Date:</span><input type="date" name="birtdate" required></label>
-          <label> <span>Gender:</span>
-            <select name="gender" id="gender">
-              <option value="">Select Gender</option>
-              <option value="Female">Female</option>
-              <option value="Male">Male</option>
-            </select>
-          </label>
-          <label> <span> Grade:</span>
-            <select name="grade" id="grade">
-              <option value="">Select Grade</option>
-              <option value="Pre-scholl">Pre-scholl</option>
-              <option value="1st">1st</option>
-              <option value="2nd">2nd</option>
-              <option value="3rd">3rd</option>
-              <option value="4th">4th</option>
-              <option value="5th">5th</option>
-            </select>
-          </label>
+          <div class="segGender">
+            <span>Gender:</span>
+            <label>
+              <span>Female</span><input class="check" type="radio" name="gender" value="Female"></label>
+            <label>
+              <span>Male</span><input class="check" type="radio" name="gender" value="Male"></label>
+          </div>
+          <div class="segGrade"> <span> Grade:</span>
+            <label>
+              <input class="check" type="radio" name="grade" value="Pre-scholl"><span>Pre-scholl</span></label>
+            <label>
+              <input class="check" type="radio" name="grade" value="1st"><span>1st</span></label>
+            <label>
+              <input class="check" type="radio" name="grade" value="2nd"><span>2nd</span></label>
+            <label>
+              <input class="check" type="radio" name="grade" value="3rd"><span>3rd</span></label>
+            <label>
+              <input class="check" type="radio" name="grade" value="4th"><span>4th</span></label>
+            <label>
+              <input class="check" type="radio" name="grade" value="5th"><span>5th</span></label>
+          </div>
 
         </fieldset>
         <fieldset class="segmento2">
           <legend>Which elementary school do you live near?</legend>
           <span>Closest School :</span>
           <label>
-            AL Katzenmaier<input class="check" type="radio" name="school" value="AL Katzenmaier"></label>
+            <input class="check" type="radio" name="school" value="AL Katzenmaier"><span>AL Katzenmaier</span></label>
           <label>
-            Greenbay<input class="check" type="radio" name="school" value="Greenbay"></label>
+            <input class="check" type="radio" name="school" value="Greenbay"><span> Greenbay</span></label>
           <label>
-            Howard A Yeager<input class="check" type="radio" name="school" value="Howard A Yeager"></label>
+            <input class="check" type="radio" name="school" value="Howard A Yeager"> <span> Howard A
+              Yeager</span></label>
           <label>
-            Marjorie P Hart<input class="check" type="radio" name="school" value="Marjorie P Hart"></label>
+            <input class="check" type="radio" name="school" value="Marjorie P Hart"> <span> Marjorie P
+              Hart</span></label>
           <label>
-            North Elementary<input class="check" type="radio" name="school" value="North Elementary"></label>
+            <input class="check" type="radio" name="school" value="North Elementary"><span> North
+              Elementary</span></label>
           <label>
-            South Elementary
-            <input class="check" type="radio" name="school" value="South Elementary"></label>
+
+            <input class="check" type="radio" name="school" value="South Elementary"><span>South Elementary</span>
+          </label>
         </fieldset>
         <fieldset class="segmento3">
           <legend>
             What position(s) do you normally play? (check all that apply)
           </legend>
           <label>
-            Forward<input class="check" type="checkbox" name="position" value="Forward"></label>
+            <input class="check" type="checkbox" name="position" value="Forward"><span>Forward</span></label>
           <label>
-            Defense<input class="check" type="checkbox" name="position" value="Defense"></label>
+            <input class="check" type="checkbox" name="position" value="Defense"><span>Defense</span></label>
           <label>
-            Midfield<input class="check" type="checkbox" name="position" value="Midfield"></label>
+            <input class="check" type="checkbox" name="position" value="Midfield"><span>Midfield</span></label>
           <label>
-            Goalkeeper<input class="check" type="checkbox" name="position" value="Goalkeeper"></label>
+            <input class="check" type="checkbox" name="position" value="Goalkeeper"><span>Goalkeeper</span></label>
         </fieldset>
         <fieldset class="segmento4">
           <legend>Uniform Size</legend>
           <label>
-            Youth Smal<input class="check" type="radio" name="uniforme" value="Youth Smal"></label>
+            <input class="check" type="radio" name="uniforme" value="Youth Smal"><span>Youth Smal</span></label>
           <label>
-            Youth Medium<input class="check" type="radio" name="uniforme" value="Youth Medium"></label>
+            <input class="check" type="radio" name="uniforme" value="Youth Medium"><span>Youth Medium</span></label>
           <label>
-            Youth Large<input class="check" type="radio" name="uniforme" value="Youth Large"></label>
+            <input class="check" type="radio" name="uniforme" value="Youth Large"><span>Youth Large</span></label>
           <label>
-            Small<input class="check" type="radio" name="uniforme" value="Small"></label>
+            <input class="check" type="radio" name="uniforme" value="Small"> <span>Small</span></label>
           <label>
-            Medium<input class="check" type="radio" name="uniforme" value="Medium"></label>
+            <input class="check" type="radio" name="uniforme" value="Medium"><span>Medium</span></label>
           <label>
-            Large<input class="check" type="radio" name="uniforme" value="Large"></label>
+            <input class="check" type="radio" name="uniforme" value="Large"><span>Large</span></label>
           <label>
-            Extra-Large<input class="check" type="radio" name="uniforme" value="Extra-Large"></label>
+            <input class="check" type="radio" name="uniforme" value="Extra-Large"><span>Extra-Large</span></label>
         </fieldset>
         <fieldset class="segmento5">
           <p>
