@@ -811,7 +811,7 @@ select {
   padding: 5px;
 }
 
-@media only screen and (max-width: 340px) and (min-width: 5px) {
+@media only screen and (max-width: 320px) and (min-width: 5px) {
   .section-Games-Info {
     min-width: 300px;
   }
@@ -903,6 +903,141 @@ select {
 
   .sectionRegistracion {
     width: 300px;
+    font-size: 16px;
+    margin: 1px;
+    padding: 1px;
+  }
+
+  .segmento1 label {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+
+  .streetAddress {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .segmento1 input,
+  select {
+    width: 180px;
+    background-color: white;
+    border-color: transparent;
+    padding: 5px;
+  }
+
+  .segGender {
+    width: 300px;
+  }
+
+  .segGrade {
+    flex-wrap: wrap;
+    width: 300px;
+  }
+
+  .segmento5 {
+    width: 320px;
+  }
+
+  .segmento5 label {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 425px) and (min-width: 321px) {
+  .section-Games-Info {
+    min-width: 300px;
+  }
+
+  .section-Games-Info iframe {
+    max-width: 580px;
+  }
+
+  .gamesLocations {
+    width: 420px;
+    justify-content: left;
+  }
+  .gamesLocations h2 {
+    width: 400px;
+  }
+
+  .gamesLocations article {
+    width: 400px;
+  }
+
+  article iframe {
+    width: 380px;
+    height: auto;
+  }
+
+  aside {
+    max-width: 400px;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+
+  aside figure {
+    width: 120px;
+  }
+
+  aside img {
+    width: 40px;
+  }
+
+  aside figcaption {
+    font-size: xx-small;
+  }
+
+  .navegacion {
+    padding: 5px;
+  }
+
+  header h1 {
+    font-size: 25px;
+  }
+
+  .mailito img {
+    width: 100px;
+  }
+  article p {
+    line-height: 1.3em;
+    font-size: 1em;
+  }
+
+  li {
+    line-height: 1.3em;
+    font-size: 1em;
+  }
+
+  .mailitoTabla {
+    font-size: 8px;
+  }
+
+  #dataTable {
+    font-size: small;
+  }
+
+  #dataTable p {
+    font-size: 16px;
+  }
+
+  #dataTable caption {
+    font-size: 24px;
+  }
+
+  #dataTable th {
+    font-size: 10px;
+  }
+
+  .sectionRegistracion {
+    width: 400px;
+  }
+
+  .sectionRegistracion {
+    width: 400px;
     font-size: 16px;
     margin: 1px;
     padding: 1px;
