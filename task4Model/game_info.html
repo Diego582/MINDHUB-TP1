@@ -1,48 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <link rel="stylesheet" href="./css/style.css" >
-    <title>M.D.H.L.</title>
-    <link
-      rel="shortcut icon"
-      href="./imagenes/Logo_Mighty_ducks-01.png"
-      type="image/x-icon"
-    >
-  </head>
-  <body>
-    <header class="bannerImagenDos">
-      <h1>Mighty Ducks Hockey League</h1>
-    </header>
-    <nav>
-      <figure class="logo">
-        <img src="./imagenes/Logo_Mighty_ducks-01.png" alt="logo" >
-      </figure>
-      <div class="navegacion">
-        <a href="./index.html"> Home </a><a href="./about.html"> About</a
-        ><a href="./contact.html"> Contact </a>
-        <a class="nav-Game" href="#"> Games </a>
-        <a href="./rules.html"> Rules </a>
-      </div>
-      <div class="redesSocialaes">
-        <a href="https://www.facebook.com/XXXXX" target="_blank"
-          ><img src="./imagenes/faceCal.png" alt="Facebook"
-        ></a>
-        <a href="https://www.instagram.com/XXXXX" target="_blank"
-          ><img src="./imagenes/instCala.png" alt="Instagram"
-        ></a>
 
-        <a href="https://twitter.com/XXXXX" target="_blank"
-          ><img src="./imagenes/twiCala.png" alt="Twitter"
-        ></a>
-      </div>
-    </nav>
-    <main>
-      <section>
-        <h2>Games</h2>
-        <table>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>M.D.H.L.</title>
+  <link rel="shortcut icon" href="./imagenes/Logo_Mighty_ducks-01.png" type="image/x-icon">
+</head>
+
+<body>
+  <header class="bannerImagenDos">
+    <h1>Mighty Ducks Hockey League</h1>
+  </header>
+  <nav>
+    <figure class="logo">
+      <img src="./imagenes/Logo_Mighty_ducks-01.png" alt="logo">
+    </figure>
+    <div class="navegacion">
+      <a href="./index.html"> Home </a><a href="./about.html"> About</a><a href="./contact.html"> Contact </a>
+      <a class="nav-Game" href="#"> Games </a>
+      <a href="./rules.html"> Rules </a>
+      <a href="./registration.html"> Registration </a>
+    </div>
+    <div class="redesSocialaes">
+      <a href="https://www.facebook.com/XXXXX" target="_blank"><img src="./imagenes/faceCal.png" alt="Facebook"></a>
+      <a href="https://www.instagram.com/XXXXX" target="_blank"><img src="./imagenes/instCala.png" alt="Instagram"></a>
+
+      <a href="https://twitter.com/XXXXX" target="_blank"><img src="./imagenes/twiCala.png" alt="Twitter"></a>
+    </div>
+  </nav>
+  <main>
+    <section class="gamesLocations">
+      <h2>
+        Games and location of the stadiums </h2>
+      <article>
+        <h3>Games</h3>
+        <table id="dataTable">
           <caption>
             Fall Schedule
             <p>* All games take place on Saturday</p>
@@ -59,51 +54,51 @@
             <tr>
               <td rowspan="2">9/01</td>
               <td>U1 and U4</td>
-              <td>AL Katzenmaier</td>
+              <td><a href="#Katzenmaier">AL Katzenmaier</a></td>
               <td>9:30 a.m.</td>
             </tr>
             <tr>
               <td>U3 and U2</td>
-              <td>Greenbay</td>
+              <td><a href="#Greenbay">Greenbay</a></td>
               <td>1:00 p.m.</td>
             </tr>
             <tr>
               <td rowspan="2">9/08</td>
               <td>U5 and U6</td>
-              <td>Howard A Yeager</td>
+              <td><a href="#Yeager">Howard A Yeager</a></td>
               <td>9:30 a.m.</td>
             </tr>
             <tr>
               <td>U6 and U1</td>
-              <td>Marjorie P Hart</td>
+              <td><a href="#Hart">Marjorie P Hart</a></td>
               <td>1:00 p.m.</td>
             </tr>
             <tr>
               <td rowspan="2">9/15</td>
               <td>U2 and U4</td>
-              <td>North</td>
+              <td><a href="#North">North</a></td>
               <td>9:30 a.m.</td>
             </tr>
             <tr>
               <td>U3 and U5</td>
-              <td>AL Katzenmaier</td>
+              <td><a href="#Katzenmaier">AL Katzenmaier</a></td>
               <td>1:00 p.m.</td>
             </tr>
             <tr>
               <td rowspan="2">9/22</td>
               <td>U1 and U3</td>
-              <td>South</td>
+              <td><a href="#South">South</a></td>
               <td>9:30 a.m.</td>
             </tr>
             <tr>
               <td>U2 and U6</td>
-              <td>Howard A Yeager</td>
+              <td><a href="#Yeager">Howard A Yeager</a></td>
               <td>1:00 p.m.</td>
             </tr>
             <tr>
               <td>9/29</td>
               <td>U4 and U5</td>
-              <td>Greenbay</td>
+              <td><a href="#Greenbay">Greenbay</a></td>
               <td>9:30 a.m.</td>
             </tr>
           </tbody>
@@ -126,53 +121,126 @@
               </td>
             </tr>
             <tr>
-              <td>Phone:</td>
-              <td class="izquierda">(630)690-8132</td>
-              <td>Email:</td>
-              <td>
-                <a class="izquierda" href="mailito:michael.randall@chihockey.or"
-                  >michael.randall@chihockey.or</a
-                >
+              <td>Phone: (630)690-8132</td>
+              <td class="derecha">Email:</td>
+
+              <td colspan="2">
+                <a class="mailitoTabla" href="mailito:michael.randall@chihockey.or">michael.randall@chihockey.or</a>
               </td>
             </tr>
           </tfoot>
         </table>
-      </section>
-      <aside>
-        <figure>
-          <a href="https://www.facebook.com/xxxxxxxx" target="_blank">
-            <img src="./imagenes/faceCal.png" alt="Facebook" width="50"
-          ></a>
-          <figcaption>Enter our Facebook</figcaption>
-        </figure>
-        <figure>
-          <a href="https://www.twitter.com/xxxxxxxx" target="_blank">
-            <img src="./imagenes/twiCala.png" alt="Twitter" width="50"
-          ></a>
-          <figcaption>Enter our Twitter</figcaption>
-        </figure>
-        <figure>
-          <a href="https://www.instagram.com/xxxxxxxx" target="_blank">
-            <img src="./imagenes/instCala.png" alt="Twitter" width="50"
-          ></a>
-          <figcaption>Enter our Instagram</figcaption>
-        </figure>
-      </aside>
-    </main>
-    <footer>
-      <div class="derechosFooter">
-        <figure>
-          <img src="./imagenes/logocalado.png" alt="M.D.H.L." width="150" >
-        </figure>
-        <p>Content owned by Mighty Ducks Hockey League</p>
-        <p>All rights reserved developed by Diego Peña</p>
-      </div>
-      <div class="navegacionFooter">
-        <a href="./index.html"> Home </a><a href="./about.html"> About</a
-          ><a href="./contact.html"> Contact </a>
-          <a class="nav-Game" href="#"> Games </a>
-          <a href="./rules.html"> Rules </a>
-      </div>
-    </footer>
-  </body>
+      </article>
+
+      <article class="section-Games-Info">
+        <h3>Location of the Stadiums</h3>
+        <div id="Katzenmaier">
+          <h3>AL Katzenmaier</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4960.847085329409!2d-87.86367067521594!3d42.32680103715236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses-419!2sar!4v1675694533416!5m2!1ses-419!2sar"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <figure>
+            <a href="#dataTable"><img src="./imagenes/iconSubir.png" alt=""></a>
+            <figcaption>
+              Back to Table </figcaption>
+          </figure>
+        </div>
+        <div id="Greenbay">
+          <h3>Greenbay</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2845.11389007383!2d-88.01726699999861!3d44.51282055973235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8802faca1db0ce89%3A0x243d15113847a7ef!2sGreen%20Bay%20School%20of%20Dance!5e0!3m2!1ses-419!2sar!4v1675695462085!5m2!1ses-419!2sar"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <figure>
+            <a href="#dataTable"><img src="./imagenes/iconSubir.png" alt=""></a>
+            <figcaption>
+              Back to Table </figcaption>
+          </figure>
+        </div>
+        <div id="Yeager">
+          <h3>Howard A Yeager</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5900.537457916256!2d-87.85735010792263!3d42.31546672819802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac26b07c5%3A0x8b51fa5d6efe771a!2sHoward%20A.%20Yeager%20School%20(PREK-K)!5e0!3m2!1ses-419!2sar!4v1675694445233!5m2!1ses-419!2sar"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <figure>
+            <a href="#dataTable"><img src="./imagenes/iconSubir.png" alt=""></a>
+            <figcaption>
+              Back to Table </figcaption>
+          </figure>
+        </div>
+        <div id="Hart">
+          <h3>Marjorie P Hart</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.7196175987524!2d-87.84787658454474!3d42.327178679189174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fecd0628e1bb5%3A0x9a4d5f9aafd42e02!2sMarjorie%20P%20Hart%20School!5e0!3m2!1ses-419!2sar!4v1675695974505!5m2!1ses-419!2sar"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <figure>
+            <a href="#dataTable"><img src="./imagenes/iconSubir.png" alt=""></a>
+            <figcaption>
+              Back to Table </figcaption>
+          </figure>
+        </div>
+        <div id="North">
+          <h3>North</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d757983.5462334832!2d-88.52891781474071!3d42.088765652228076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd33af14860a5%3A0x5736e62f19086c62!2sNorth%20Elementary!5e0!3m2!1ses-419!2sar!4v1675696054327!5m2!1ses-419!2sar"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <figure>
+            <a href="#dataTable"><img src="./imagenes/iconSubir.png" alt=""></a>
+            <figcaption>
+              Back to Table </figcaption>
+          </figure>
+        </div>
+        <div id="South">
+          <h3>South</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d189708.77968840604!2d-88.07036694785828!3d42.017448554139946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fb7ad3c474b63%3A0x93bdf85af2a839ed!2sSOUTH%20ELEMENTARY%20SCHOOL!5e0!3m2!1ses-419!2sar!4v1675696116539!5m2!1ses-419!2sar"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <figure>
+            <a href="#dataTable"><img src="./imagenes/iconSubir.png" alt=""></a>
+            <figcaption>
+              Back to Table </figcaption>
+          </figure>
+        </div>
+        </div>
+    </section>
+    <aside>
+      <figure>
+        <a href="https://www.facebook.com/xxxxxxxx" target="_blank">
+          <img src="./imagenes/faceCal.png" alt="Facebook" width="50"></a>
+        <figcaption>Enter our Facebook</figcaption>
+      </figure>
+      <figure>
+        <a href="https://www.twitter.com/xxxxxxxx" target="_blank">
+          <img src="./imagenes/twiCala.png" alt="Twitter" width="50"></a>
+        <figcaption>Enter our Twitter</figcaption>
+      </figure>
+      <figure>
+        <a href="https://www.instagram.com/xxxxxxxx" target="_blank">
+          <img src="./imagenes/instCala.png" alt="Twitter" width="50"></a>
+        <figcaption>Enter our Instagram</figcaption>
+      </figure>
+    </aside>
+  </main>
+  <footer>
+    <div class="derechosFooter">
+      <figure>
+        <img src="./imagenes/logocalado.png" alt="M.D.H.L." width="150">
+      </figure>
+      <p>Content owned by Mighty Ducks Hockey League</p>
+      <p>All rights reserved developed by Diego Peña</p>
+    </div>
+    <div class="navegacionFooter">
+      <a href="./index.html"> Home </a><a href="./about.html"> About</a><a href="./contact.html"> Contact </a>
+      <a class="nav-Game" href="#"> Games </a>
+      <a href="./rules.html"> Rules </a>
+      <a href="./registration.html"> Registration </a>
+    </div>
+  </footer>
+</body>
+
 </html>

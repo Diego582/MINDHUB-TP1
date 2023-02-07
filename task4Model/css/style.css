@@ -271,6 +271,7 @@ article p {
   flex-grow: 1;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .navegacionFooter {
@@ -279,6 +280,7 @@ article p {
   display: flex;
   justify-content: center;
   min-width: 150px;
+  flex-wrap: wrap;
 }
 
 .navegacionFooter a {
@@ -343,6 +345,11 @@ article p {
 }
 
 .nav-Rule {
+  text-decoration: none;
+  color: #f1ef00ff;
+}
+
+.nav-Regist {
   text-decoration: none;
   color: #f1ef00ff;
 }
@@ -556,8 +563,6 @@ select {
   background-color: #f0f048;
 }
 
-
-
 .segmento1 {
   padding-top: 30px;
   display: flex;
@@ -630,9 +635,6 @@ select {
   width: 200px;
 }
 
-
-
-
 .segmento4 {
   width: 100%;
   border-color: transparent;
@@ -644,8 +646,6 @@ select {
 .segmento4 label {
   width: 250px;
 }
-
-
 
 .segmento4 input {
   padding: 15px;
@@ -712,4 +712,121 @@ select {
 
 .asideRegistracion {
   min-width: 150px;
+}
+
+.section-Games-Info figure {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.section-Games-Info img {
+  width: 30px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.section-Games-Info img:hover {
+  background-color: #d94e48;
+}
+
+.section-Games-Info figcaption {
+  width: 100%;
+}
+
+#dataTable a {
+  text-decoration: none;
+  color: black;
+}
+
+.gamesLocations {
+  min-width: 550px;
+}
+
+@media only screen and (max-width: 340px) and (min-width: 5px) {
+  .section-Games-Info {
+    min-width: 300px;
+  }
+
+  .section-Games-Info iframe {
+    max-width: 580px;
+  }
+
+  .gamesLocations {
+    max-width: 350px;
+    justify-content: left;
+  }
+  .gamesLocations h2 {
+    width: 300px;
+    
+  }
+
+  .gamesLocations article {
+    width: 300px;
+  }
+
+  article iframe {
+    width: 280px;
+    height: auto;
+  }
+
+  aside {
+    max-width: 300px;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+
+  aside figure {
+    width: 90px;
+  }
+
+  aside img {
+    width: 30px;
+  }
+
+  aside figcaption {
+    font-size: xx-small;
+  }
+
+  .navegacion {
+    padding: 5px;
+  }
+
+  header h1 {
+    font-size: 25px;
+  }
+
+  .mailito img {
+    width: 100px;
+  }
+  article p {
+    line-height: 1.3em;
+    font-size: 1em;
+  }
+
+  li {
+    line-height: 1.3em;
+    font-size: 1em;
+  }
+
+  .mailitoTabla{
+  font-size: x-small;
+  }
+
+  #dataTable{
+    font-size: small;
+  }
+
+  
+
 }
