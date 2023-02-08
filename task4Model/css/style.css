@@ -968,6 +968,10 @@ select {
     width: 75px;
     font-size: small;
   }
+
+  .formulario span {
+    font-size: small;
+  }
   .segGender {
     margin: 5px;
     width: 290px;
@@ -1012,6 +1016,13 @@ select {
     margin: 2px;
     padding: 1px;
   }
+
+  .check {
+    width: 20px;
+    height: 20px;
+  }
+
+
 }
 
 @media only screen and (max-width: 425px) and (min-width: 376px) {
