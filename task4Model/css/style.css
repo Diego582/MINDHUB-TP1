@@ -708,7 +708,7 @@ select {
 }
 
 .sectionRegistracion {
-  min-width: 320px;
+  min-width: 300px;
 }
 
 .asideRegistracion {
@@ -833,6 +833,14 @@ select {
 }
 
 @media only screen and (max-width: 375px) and (min-width: 319px) {
+  .formulario {
+    width: 90%;
+    margin: 5px;
+  }
+
+  .formulario fieldset {
+    width: 90%;
+  }
   .section-Games-Info {
     min-width: 300px;
   }
@@ -850,7 +858,7 @@ select {
   }
 
   .gamesLocations article {
-    width: 300px;
+    width: 310px;
   }
 
   article iframe {
@@ -903,7 +911,7 @@ select {
   }
 
   #dataTable {
-    font-size: small;
+    font-size: x-small;
   }
 
   #dataTable p {
@@ -919,43 +927,55 @@ select {
   }
 
   .sectionRegistracion {
-    width: 310px;
-  }
-
-  .sectionRegistracion {
-    width: 300px;
+    width: 320px;
     font-size: 16px;
-    margin: 1px;
-    padding: 1px;
   }
 
   .segmento1 label {
+    margin: 5px;
     display: flex;
     flex-wrap: wrap;
-    width: 300px;
+    width: 290px;
   }
 
   .streetAddress {
-    width: 300px;
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .streetAddress span {
+    width: 100px;
     display: flex;
     flex-wrap: wrap;
   }
 
   .segmento1 input,
   select {
-    width: 180px;
+    width: 170px;
     background-color: white;
     border-color: transparent;
     padding: 5px;
   }
 
+  .segmento1 {
+    width: 90%;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .segmento1 span {
+    width: 75px;
+    font-size: small;
+  }
   .segGender {
-    width: 300px;
+    margin: 5px;
+    width: 290px;
   }
 
   .segGrade {
     flex-wrap: wrap;
-    width: 300px;
+    width: 290px;
   }
 
   .segmento5 {
@@ -981,6 +1001,16 @@ select {
   }
   footer p {
     font-size: small;
+  }
+
+  .tooltip .tooltiptext {
+    width: 50px;
+  }
+
+  table {
+    width: 100%;
+    margin: 2px;
+    padding: 1px;
   }
 }
 
@@ -1072,10 +1102,6 @@ select {
 
   .sectionRegistracion {
     width: 400px;
-  }
-
-  .sectionRegistracion {
-    width: 400px;
     font-size: 16px;
     margin: 1px;
     padding: 1px;
@@ -1132,6 +1158,9 @@ select {
   }
   footer p {
     font-size: small;
+  }
+  .tooltip .tooltiptext {
+    width: 50px;
   }
 }
 
@@ -1190,10 +1219,6 @@ select {
 
   #dataTable th {
     font-size: 16px;
-  }
-
-  .sectionRegistracion {
-    width: 700px;
   }
 
   .sectionRegistracion {
