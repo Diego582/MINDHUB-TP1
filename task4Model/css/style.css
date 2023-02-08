@@ -811,7 +811,28 @@ select {
   padding: 5px;
 }
 
-@media only screen and (max-width: 320px) and (min-width: 5px) {
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: #b03b00;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+@media only screen and (max-width: 375px) and (min-width: 319px) {
   .section-Games-Info {
     min-width: 300px;
   }
@@ -838,9 +859,9 @@ select {
   }
 
   aside {
-    max-width: 300px;
+    max-width: 95%;
     flex-direction: row;
-    padding-left: 20px;
+    padding-left: 9%;
     padding-bottom: 10px;
   }
 
@@ -944,9 +965,26 @@ select {
   .segmento5 label {
     width: 300px;
   }
+
+  .Guia ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .Guia li {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+  }
+  footer img {
+    width: 100px;
+  }
+  footer p {
+    font-size: small;
+  }
 }
 
-@media only screen and (max-width: 425px) and (min-width: 321px) {
+@media only screen and (max-width: 425px) and (min-width: 376px) {
   .section-Games-Info {
     min-width: 300px;
   }
@@ -975,7 +1013,7 @@ select {
   aside {
     max-width: 400px;
     flex-direction: row;
-    padding-left: 20px;
+    padding-left: 35px;
     padding-bottom: 10px;
   }
 
@@ -1078,5 +1116,137 @@ select {
 
   .segmento5 label {
     width: 300px;
+  }
+  .Guia ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .Guia li {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+  }
+  footer img {
+    width: 100px;
+  }
+  footer p {
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  aside {
+    max-width: 750px;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-bottom: 10px;
+  }
+
+  aside figure {
+    width: 230px;
+  }
+
+  aside img {
+    width: 75px;
+  }
+
+  aside figcaption {
+    font-size: small;
+  }
+
+  header h1 {
+    font-size: 35px;
+  }
+
+  section h2 {
+    font-size: 22px;
+  }
+
+  article h3 {
+    font-size: 18px;
+  }
+
+  article p {
+    line-height: 1.4em;
+    font-size: 1.1em;
+  }
+
+  li {
+    line-height: 1.4em;
+    font-size: 1.1em;
+  }
+  #dataTable {
+    font-size: small;
+  }
+
+  #dataTable p {
+    font-size: 14px;
+  }
+
+  #dataTable caption {
+    font-size: 20px;
+  }
+
+  #dataTable th {
+    font-size: 16px;
+  }
+
+  .sectionRegistracion {
+    width: 700px;
+  }
+
+  .sectionRegistracion {
+    width: 700px;
+    font-size: 16px;
+    margin: 1px;
+    padding: 1px;
+  }
+
+  .segmento1 label {
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+  }
+
+  .streetAddress {
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .streetAddress span {
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .segmento1 input,
+  select {
+    width: 350px;
+    background-color: white;
+    border-color: transparent;
+    padding: 5px;
+  }
+
+  .segGender {
+    width: 650px;
+  }
+
+  .segGrade {
+    width: 650px;
+  }
+
+  .segGrade label {
+    flex-wrap: nowrap;
+    width: 13%;
+  }
+
+  .segmento5 {
+    width: 700px;
+  }
+
+  .segmento5 label {
+    width: 650px;
   }
 }
